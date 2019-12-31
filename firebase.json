@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "mobile",
+      "public": "dist/mobile",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ngblog-92646": {
+      "hosting": {
+        "mobile": [
+          "ngblog-92646"
+        ]
+      }
+    }
+  }
+}
